@@ -1,9 +1,9 @@
-import Image from "next/image";
+import AboutMe from "@/components/aboutMe/AboutMe";
 
 export default function Home() {
   return (
-   <div>
-    
-   </div>
+    <>
+      <AboutMe />
+    </>
   );
 }
