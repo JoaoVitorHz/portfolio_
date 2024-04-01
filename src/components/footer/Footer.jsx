@@ -43,7 +43,8 @@ export default function Footer(){
                         <div className="text-gray-300">
                             <h6>Linkedin</h6>
                             <a 
-                                href="www.linkedin.com/in/joão-vitor-araujo-96a78522b"
+                                href="https://www.linkedin.com/in/jo%C3%A3o-vitor-araujo-96a78522b"
+                                target="_blank"
                                 className="flex items-center gap-2 cursor-pointer hover:text-[#147efb] transition"
                             >  
                                 <LuArrowUpRightSquare /> 
