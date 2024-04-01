@@ -2,18 +2,20 @@ import { FaSquarePhone } from "react-icons/fa6";
 import { FaEnvelopeOpenText } from "react-icons/fa";
 import { LuArrowUpRightSquare } from "react-icons/lu";
 import { IoLogoLinkedin } from "react-icons/io";
+import SectionTitle from "../SectionTitle";
 
 export default function Footer(){
     return(
         <section className="w-full p-20 bg-[#1e1e1e] flex justify-center items-center">
             <div className="w-[1024px]">
 
-                <div className="self-start title-desc">
-                    <span className="uppercase font-semibold text-[#147efb] text-[17px] mb-[10px]">CONTATO</span>
-                    <h3 className="text-gray-400 text-[25px] leading-[1.4] mb-[50px] font-bold">Não seja tímido! Entre em contado comigo! 👇</h3>
-                </div>
+                <SectionTitle 
+                    title="Contato"
+                    subTitle="Não seja tímido! Entre em contado comigo! 👇"
+                    subTitleColor="gray"
+                />
 
-                <div className="flex gap-10">
+                <div className="flex gap-10 mt-5">
                     <div className="flex items-center gap-5">
                         <div className="w-[65px] h-[65px] rounded-full bg-white flex justify-center items-center ">
                             <FaSquarePhone className="text-[#147efb] text-3xl"/>

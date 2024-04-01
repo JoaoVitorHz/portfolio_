@@ -1,8 +1,14 @@
+import SectionTitle from "../SectionTitle";
+
 export default function Experience(){
     return(
         <section className="w-full min-h-[calc(100vh-70px)] p-16 bg-white flex justify-center items-center">
             <div className="w-[1024px] ">
-                <h1 className="text-2xl font-medium">Experiência Profissional</h1>
+
+                <SectionTitle 
+                    title="Experiência Profissional"
+                    subTitle="4 Anos de Experiência Profissional 🐱‍💻"
+                />
 
                 <div className="w-full grid grid-cols-2 gap-10 mt-10">
 

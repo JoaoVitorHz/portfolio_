@@ -1,11 +1,16 @@
 import { ProjectItens } from "@/utils/ProjectItens";
 import { LuArrowUpRightSquare } from "react-icons/lu";
+import SectionTitle from "../SectionTitle";
 
 export default function Projects(){
     return(
         <section className="w-full p-20 bg-[#fafafa] flex justify-center items-center">
             <div className="w-[1024px] ">
-                <h1 className="text-2xl font-medium">Projetos</h1>
+
+                <SectionTitle 
+                    title="Projetos"
+                    subTitle="Cada projeto é uma peça única de desenvolvimento 🧩"
+                />
 
                 <div className="w-full grid grid-cols-3 gap-10 mt-10">
                     {ProjectItens.map((project) => {
