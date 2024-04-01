@@ -5,13 +5,13 @@ export default function Header(){
                 <div>
                     <h1 className="text-xl font-bold">João Vitor</h1>
                 </div>
-                <nav className="flex gap-5">
-                    <a href="">Home</a>
-                    <a href="">Sobre min</a>
-                    <a href="">Experiência</a>
-                    <a href="">Projetos</a>
-                    <a href="">Conhecimentos</a>
-                    <a href="">Contato</a>
+                <nav className="flex gap-5 font-bold">
+                    <a href="" className="font-semibold hover:text-[#147efb] transition">Home</a>
+                    <a href="" className="font-semibold hover:text-[#147efb] transition">Sobre min</a>
+                    <a href="" className="font-semibold hover:text-[#147efb] transition">Experiência</a>
+                    <a href="" className="font-semibold hover:text-[#147efb] transition">Projetos</a>
+                    <a href="" className="font-semibold hover:text-[#147efb] transition">Conhecimentos</a>
+                    <a href="" className="font-semibold hover:text-[#147efb] transition">Contato</a>
                 </nav>
             </div>
         </header>
