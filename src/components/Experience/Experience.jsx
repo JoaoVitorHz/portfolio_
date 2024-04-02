@@ -2,7 +2,10 @@ import SectionTitle from "../SectionTitle";
 
 export default function Experience(){
     return(
-        <section className="w-full min-h-[calc(100vh-70px)] p-16 bg-white flex justify-center items-center">
+        <section 
+            id="experience"
+            className="w-full min-h-[calc(100vh-70px)] p-16 bg-white flex justify-center items-center"
+        >
             <div className="w-[1024px] lg:w-[820px] md:w-[400px]">
 
                 <SectionTitle 

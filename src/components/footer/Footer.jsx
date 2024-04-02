@@ -6,7 +6,10 @@ import SectionTitle from "../SectionTitle";
 
 export default function Footer(){
     return(
-        <section className="w-full p-20 bg-[#1e1e1e] flex justify-center items-center">
+        <section 
+            id="footer"
+            className="w-full p-20 bg-[#1e1e1e] flex justify-center items-center"
+        >
             <div className="w-[1024px] lg:w-[820px]">
 
                 <SectionTitle 
