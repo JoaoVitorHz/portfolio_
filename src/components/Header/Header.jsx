@@ -1,4 +1,4 @@
-export default function Header(){
+export function Header(){
     return(
         <header className="fixed top-0 w-screen h-[70px]  bg-white shadow-md">
             <div className="w-[80%] h-full m-auto flex justify-between items-center">
