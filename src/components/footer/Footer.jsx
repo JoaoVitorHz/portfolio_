@@ -7,7 +7,7 @@ import SectionTitle from "../SectionTitle";
 export default function Footer(){
     return(
         <section className="w-full p-20 bg-[#1e1e1e] flex justify-center items-center">
-            <div className="w-[1024px]">
+            <div className="w-[1024px] lg:w-[820px]">
 
                 <SectionTitle 
                     title="Contato"
@@ -15,7 +15,7 @@ export default function Footer(){
                     subTitleColor="gray"
                 />
 
-                <div className="flex gap-10 mt-5">
+                <div className="flex gap-10 mt-5 lg:flex-col">
                     <div className="flex items-center gap-5">
                         <div className="w-[65px] h-[65px] rounded-full bg-white flex justify-center items-center ">
                             <FaSquarePhone className="text-[#147efb] text-3xl"/>

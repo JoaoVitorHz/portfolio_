@@ -7,7 +7,7 @@ import { FrontEnd, BackEnd, OtherTechnologies } from "@/utils/Technologies";
 
 export default function CardTechnologies(props){
     return(
-        <div className="border rounded-md p-10 flex-1 ">
+        <div className="border rounded-md p-10 flex-1 lg:w-[400px]">
             <div className="w-full flex flex-col items-center mb-10">
                 <div className="w-[100px] h-[100px] rounded-full bg-[#147efb] flex justify-center items-center mb-5">
 

@@ -6,6 +6,7 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -13,6 +14,22 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    screens: {
+      '2xl': {'max': '1600px'},
+      // => @media (max-width: 1535px) { ... }
+
+      'xl': {'max': '1366px'},
+      // => @media (max-width: 1279px) { ... }
+
+      'lg': {'max': '1024px'},
+      // => @media (max-width: 1023px) { ... }
+
+      'md': {'max': '800px'},
+      // => @media (max-width: 767px) { ... }
+
+      'sm': {'max': '639px'},
+      // => @media (max-width: 639px) { ... }
+    }
   },
   plugins: [],
 };

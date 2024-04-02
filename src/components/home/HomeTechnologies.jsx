@@ -1,9 +1,9 @@
 export default function HomeTechnologies(){
     return(
-        <div className="flex items-center">
+        <div className="flex items-center md:flex-col">
             <span className="border-r-2 border-solid border-[rgba(45,46,50,.5)] mr-[70px] pr-[20px] font-semibold">Conhecimentos: </span>
 
-            <div className="flex gap-[25px] screen-800:gap-[15px] screen-768:grid screen-768:grid-cols-2">
+            <div className="flex gap-[25px] md:grid md:grid-cols-2">
                 <div 
                     title="NextJs"
                     className='group flex justify-center items-center rounded-[50%] w-[65px] h-[65px] bg-white shadow-md hover:scale-[1.2] transition-[100ms] cursor-pointer'

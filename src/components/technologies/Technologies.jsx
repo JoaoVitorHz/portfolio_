@@ -3,14 +3,14 @@ import CardTechnologies from "./CardTechnologies";
 
 export default function Technologies(){
     return(
-        <section className="w-full h-[calc(100vh-70px)] bg-white flex justify-center items-center">
-            <div className="w-[1024px] ">
+        <section className="w-full min-h-[calc(100vh-70px)] h-auto bg-white flex justify-center items-center xl:py-20">
+            <div className="w-[1024px] lg:w-[820px] md:w-[400px]">
                 <SectionTitle 
                     title="CONHECIMENTOS / TECNOLOGIAS"
                     subTitle="Todas as tecnologias que domino. 🐱‍👤"
                 />
 
-                <div className="flex gap-5 mt-10">
+                <div className="flex gap-5 my-10 lg:flex-col lg:items-center">
                    <CardTechnologies specialty="Front-End"/>
                    <CardTechnologies specialty="Back-End"/>
                    <CardTechnologies specialty="Other"/>

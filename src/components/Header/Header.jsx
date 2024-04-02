@@ -1,6 +1,6 @@
 export default function Header(){
     return(
-        <header className="fixed w-screen h-[70px]  bg-white shadow-md">
+        <header className="fixed top-0 w-screen h-[70px]  bg-white shadow-md">
             <div className="w-[80%] h-full m-auto flex justify-between items-center">
                 <div>
                     <h1 className="text-xl font-bold">João Vitor</h1>

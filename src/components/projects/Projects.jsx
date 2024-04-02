@@ -5,14 +5,14 @@ import SectionTitle from "../SectionTitle";
 export default function Projects(){
     return(
         <section className="w-full p-20 bg-[#fafafa] flex justify-center items-center">
-            <div className="w-[1024px] ">
+            <div className="w-[1024px] md:w-[400px] ">
 
                 <SectionTitle 
                     title="Projetos"
                     subTitle="Cada projeto é uma peça única de desenvolvimento 🧩"
                 />
 
-                <div className="w-full grid grid-cols-3 gap-10 mt-10">
+                <div className="w-full grid grid-cols-3 gap-10 mt-10 md:grid-cols-1">
                     {ProjectItens.map((project) => {
                         return(
                             <div className="">

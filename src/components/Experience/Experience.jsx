@@ -3,14 +3,14 @@ import SectionTitle from "../SectionTitle";
 export default function Experience(){
     return(
         <section className="w-full min-h-[calc(100vh-70px)] p-16 bg-white flex justify-center items-center">
-            <div className="w-[1024px] ">
+            <div className="w-[1024px] lg:w-[820px] md:w-[400px]">
 
                 <SectionTitle 
                     title="Experiência Profissional"
                     subTitle="4 Anos de Experiência Profissional. 🐱‍💻"
                 />
 
-                <div className="w-full grid grid-cols-3 gap-10 mt-10">
+                <div className="w-full grid grid-cols-3 gap-10 mt-10 lg:grid-cols-2 md:grid-cols-1">
 
                     <div className="">
                         <div className="w-full bg-[#f1f1f1] h-[200px] flex justify-center items-center">
