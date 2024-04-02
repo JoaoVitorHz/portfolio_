@@ -7,7 +7,7 @@ export default function Technologies(){
             <div className="w-[1024px] ">
                 <SectionTitle 
                     title="CONHECIMENTOS / TECNOLOGIAS"
-                    subTitle="Todas as Tecnologias que domino / conheço 🐱‍👤"
+                    subTitle="Todas as tecnologias que domino. 🐱‍👤"
                 />
 
                 <div className="flex gap-5 mt-10">
