@@ -17,10 +17,10 @@ export default function Experience(){
 
                     <div className="">
                         <div className="w-full bg-[#f1f1f1] h-[200px] flex justify-center items-center">
-                            <img src="/LogoRed.svg" className="w-[200px]" alt="" />
+                            <img src="/clinicWhere.png" className="w-[200px]" alt="" />
                         </div>
                         <div className="flex flex-col gap-2 mt-7">
-                            <h3 className="text-xl font-medium">Clinic Plus  💉</h3>
+                            <h3 className="text-xl font-medium">Clinic Where 💉</h3>
                             <p>Criação de um Software que otimiza os atendimentos e a gestão dos consultórios de profissionais de saúde.</p>
                         </div>
                     </div>
