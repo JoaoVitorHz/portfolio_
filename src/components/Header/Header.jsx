@@ -7,11 +7,11 @@ export function Header(){
                 </div>
                 <nav className="flex gap-5 font-bold">
                     <a href="" className="font-semibold hover:text-[#147efb] transition">Home</a>
-                    <a href="" className="font-semibold hover:text-[#147efb] transition">Sobre min</a>
-                    <a href="" className="font-semibold hover:text-[#147efb] transition">Experiência</a>
-                    <a href="" className="font-semibold hover:text-[#147efb] transition">Projetos</a>
-                    <a href="" className="font-semibold hover:text-[#147efb] transition">Conhecimentos</a>
-                    <a href="" className="font-semibold hover:text-[#147efb] transition">Contato</a>
+                    <a href="" className="font-semibold hover:text-[#147efb] transition">About Me</a>
+                    <a href="" className="font-semibold hover:text-[#147efb] transition">Experience</a>
+                    <a href="" className="font-semibold hover:text-[#147efb] transition">Projects</a>
+                    <a href="" className="font-semibold hover:text-[#147efb] transition">Skills</a>
+                    <a href="" className="font-semibold hover:text-[#147efb] transition">Contact</a>
                 </nav>
             </div>
         </header>

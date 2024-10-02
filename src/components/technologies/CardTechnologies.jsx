@@ -19,7 +19,7 @@ export default function CardTechnologies(props){
                 <span>
                     {props.specialty == 'Front-End' && 'Front-End'}
                     {props.specialty == 'Back-End' &&  'Back-End'}
-                    {props.specialty == 'Other' &&  'Outros Conhecimentos'}
+                    {props.specialty == 'Other' &&  'Others'}
                 </span>
             </div>
 

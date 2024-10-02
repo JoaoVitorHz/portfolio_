@@ -11,8 +11,8 @@ export default function Projects(){
             <div className="w-[1024px] md:w-[400px]">
 
                 <SectionTitle 
-                    title="Projetos"
-                    subTitle="Cada projeto é uma peça única de desenvolvimento 🧩"
+                    title="Projects"
+                    subTitle="Each project is a unique piece of development.🧩"
                 />
 
                 <div className="w-full grid grid-cols-3 gap-10 mt-10 md:grid-cols-1">
@@ -30,7 +30,7 @@ export default function Projects(){
                                         className="flex items-center gap-2 font-medium  transition hover:text-blue-600"
                                     >   
                                         <LuArrowUpRightSquare /> 
-                                        Acessar
+                                        Access 
                                     </a>
                                     <p>{project.projectDesc}</p>
                                 </div>

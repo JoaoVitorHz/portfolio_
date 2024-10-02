@@ -5,18 +5,18 @@ export default function Summary(){
         <div className="flex gap-5 mb-10 md:flex-col md:gap-10">
             <div className="flex-1 h-full flex flex-col gap-5">
                 <SectionTitle 
-                    title="Sobre min"
-                    subTitle="Oh não! Você sabe quem eu sou? 🤔"
+                    title="About me"
+                    subTitle="Learn more about me 🤔"
                 />
                 <p className="lg:text-sm">
-                    Sou um Desenvolvedor com 4 anos de experiência no desenvolvimento de sistemas para diversos nichos industriais. Possuo sólido conhecimento em tecnologias como NextJs, React, Typescript, PHP, Laravel e MySQL, entre outras, além de expertise em Estrutura de Dados, Design Patterns, Clean Code, Clean Architecture e System Design.
+                    I am a Full Stack Developer with 4 years of experience in web developing. I have solid knowledge in technologies such as NextJs, React, Typescript, TailwindCss, PHP, Laravel, Node, and MySQL, among others, as well as expertise in Data Structures, Design Patterns, Clean Code, Clean Architecture, and System Design.
                     <br/>
                     <br/>
-                    Atualmente estou me formando em tecnologo de Analise e Desenvolvimento de sistemas no Centro Universitario Senac.
+                    I am currently graduating in Systems Analysis and Development at Centro Universitário Senac.
              
                     <br/>
                     <br/>
-                    Meu primeiro contato com Desenvolvimento foi em 2019 em um Curso Tecnico de Tecnico em Informatica. Foi ali onde escrevi minhas primeiras linha de código. Desde então venho me aprimorando cada vez mais em desenvolvimento Web e Mobile.  
+                    My first contact with Development was in 2019 during a Technical Course in Computer Science. That was when I wrote my first lines of code. Since then, I have been continuously improving in Web and Mobile development.  
                 </p>
             </div>
             

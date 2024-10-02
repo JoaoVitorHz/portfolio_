@@ -24,11 +24,11 @@ export default function RootLayout({ children }) {
             </div>
             <nav className="flex gap-5 font-bold">
                 <a href="#home" className="font-semibold hover:text-[#147efb] transition">Home</a>
-                <a href="#aboutMe" className="font-semibold hover:text-[#147efb] transition">Sobre min</a>
-                <a href="#experience" className="font-semibold hover:text-[#147efb] transition">Experiência</a>
-                <a href="#projects" className="font-semibold hover:text-[#147efb] transition">Projetos</a>
-                <a href="#technologies" className="font-semibold hover:text-[#147efb] transition">Conhecimentos</a>
-                <a href="#footer" className="font-semibold hover:text-[#147efb] transition">Contato</a>
+                <a href="#aboutMe" className="font-semibold hover:text-[#147efb] transition">About Me</a>
+                <a href="#experience" className="font-semibold hover:text-[#147efb] transition">Experience</a>
+                <a href="#projects" className="font-semibold hover:text-[#147efb] transition">Projects</a>
+                <a href="#technologies" className="font-semibold hover:text-[#147efb] transition">Skills</a>
+                <a href="#footer" className="font-semibold hover:text-[#147efb] transition">Contact</a>
             </nav>
           </div>
         </header>

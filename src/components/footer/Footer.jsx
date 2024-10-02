@@ -13,8 +13,8 @@ export default function Footer(){
             <div className="w-[1024px] lg:w-[820px]">
 
                 <SectionTitle 
-                    title="Contato"
-                    subTitle="Não seja tímido! Entre em contado comigo! 👇"
+                    title="Contact"
+                    subTitle="Don't be shy! Get in touch with me! 👇"
                     subTitleColor="gray"
                 />
 
@@ -24,7 +24,7 @@ export default function Footer(){
                             <FaSquarePhone className="text-[#147efb] text-3xl"/>
                         </div>
                         <div className="text-gray-300">
-                            <h6>Número</h6>
+                            <h6>Phone Number</h6>
                             <span className="flex items-center gap-2">+55 (11) 99818-8091</span>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ export default function Footer(){
                             <FaEnvelopeOpenText  className="text-[#147efb] text-3xl"/>
                         </div>
                         <div className="text-gray-300">
-                            <h6>Email</h6>
+                            <h6>E-mail</h6>
                             <span className="flex items-center gap-2">vitorjoao39207@gmail.com</span>
                         </div>
                     </div>

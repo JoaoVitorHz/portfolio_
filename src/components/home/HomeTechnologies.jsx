@@ -1,7 +1,7 @@
 export default function HomeTechnologies(){
     return(
         <div className="flex items-center md:flex-col">
-            <span className="border-r-2 border-solid border-[rgba(45,46,50,.5)] mr-[70px] pr-[20px] font-semibold">Conhecimentos: </span>
+            <span className="border-r-2 border-solid border-[rgba(45,46,50,.5)] mr-[70px] pr-[20px] font-semibold">Skills: </span>
 
             <div className="flex gap-[25px] md:grid md:grid-cols-2">
                 <div 

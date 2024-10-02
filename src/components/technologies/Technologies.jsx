@@ -9,8 +9,8 @@ export default function Technologies(){
         >
             <div className="w-[1024px] lg:w-[820px] md:w-[400px]">
                 <SectionTitle 
-                    title="CONHECIMENTOS / TECNOLOGIAS"
-                    subTitle="Todas as tecnologias que domino. 🐱‍👤"
+                    title="SKILLS / KNOWLEDGE "
+                    subTitle="All the technologies I master. 🐱‍👤"
                 />
 
                 <div className="flex gap-5 my-10 lg:flex-col lg:items-center">

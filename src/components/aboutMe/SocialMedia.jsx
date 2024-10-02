@@ -5,7 +5,7 @@ import { FaFileArrowDown } from "react-icons/fa6";
 export default function SocialMedia(){
     return(
         <div className="flex items-center">
-            <span className="border-r-2 border-solid border-[rgba(45,46,50,.5)] mr-[70px] pr-[20px] font-semibold">Principais Links: </span>
+            <span className="border-r-2 border-solid border-[rgba(45,46,50,.5)] mr-[70px] pr-[20px] font-semibold">Social Medias: </span>
 
             <div className="flex gap-[25px] screen-800:gap-[15px] screen-768:grid screen-768:grid-cols-2">
                 <a 
